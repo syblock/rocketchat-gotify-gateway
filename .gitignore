@@ -1,0 +1,35 @@
+node_modules/
+dist/
+build/
+.bun/
+*.tsbuildinfo
+
+.env
+.env.local
+.env.*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
+logs/
+*.log
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+.DS_Store
+Thumbs.db
+
+*.env # Generally, .env is listed above, but this is a broader catch if you have other env files
+!.env.example # Keep the example env file
+
+gotify_data/
+
+coverage/
+
+.nyc_output/
