@@ -2,19 +2,6 @@
 
 A custom push notification gateway for Rocket.Chat that redirects notifications to a self-hosted Gotify server, offering a privacy-focused alternative to Google's Firebase Cloud Messaging (FCM).
 
-## Table of Contents
-
-  - [About](https://www.google.com/search?q=%23about)
-  - [How it Works](https://www.google.com/search?q=%23how-it-works)
-  - [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-  - [Installation](https://www.google.com/search?q=%23installation)
-  - [Configuration](https://www.google.com/search?q=%23configuration)
-      - [Rocket.Chat Settings](https://www.google.com/search?q=%23rocketchat-settings)
-  - [Usage](https://www.google.com/search?q=%23usage)
-  - [Development](https://www.google.com/search?q=%23development)
-  - [License](https://www.google.com/search?q=%23license)
-  - [Acknowledgements](https://www.google.com/search?q=%23acknowledgements)
-
 ## About
 
 This project provides a custom gateway service for Rocket.Chat, enabling push notifications via a self-hosted Gotify server. It intercepts FCM-compatible requests from Rocket.Chat, processes them, and forwards the content to Gotify. This is ideal for those prioritizing data privacy or operating in environments where Google services are restricted.
@@ -121,7 +108,7 @@ The project uses `Elysia` (web server), `ofetch` (HTTP), and `mongodb` (database
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
